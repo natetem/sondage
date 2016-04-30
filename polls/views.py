@@ -22,6 +22,7 @@ class DetailView(generic.DetailView):
 
 
 class ResultsView(generic.DetailView):
+    """ vvvvvvvvv"""
     model = Question
     template_name = 'polls/results.html'
 
